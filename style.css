@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+animation: changebg 10s  infinite alternate linear;
 }
 img{
     width : 50px;
@@ -103,5 +104,32 @@ img{
 .arrow .second{
     height: 110px;
     transform: rotate(250deg);
+    
+}
+
+
+
+
+@keyframes changebg {
+
+    0%{
+        background-color: aqua;
+    }
+    
+    25%{
+        background-color: rgb(13, 39, 39);
+    }
+    
+    50%{
+        background-color: rgb(147, 130, 232);
+    }
+    
+    75%{
+        background-color: rgb(228, 38, 168);
+    }
+    
+    100%{
+        background-color: rgb(30, 232, 77);
+    }
     
 }
